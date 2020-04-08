@@ -1,0 +1,11 @@
+function validate(){
+var user=document.getElementById("username").value;
+var pass=document.getElementById("password").value;
+	if(user.trim()=="" || pass.trim()==""){
+	document.getElementById("p1").innerHTML="fields cannot be blank!!!";
+		return false
+	}
+else{
+	return true;
+}
+}
